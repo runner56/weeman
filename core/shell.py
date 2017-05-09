@@ -173,7 +173,7 @@ def shell():
                 else:
                     # Here we start the server (:
                     s = weeman(url,port)
-                    s.clone()
+                    # s.clone()
                     s.serve()
             elif prompt[0] == "banner" or prompt[0] == "b":
                 print_startup()
